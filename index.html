@@ -2,55 +2,61 @@
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <meta charset="utf-8">
     <title>Square one</title>
   </head>
   <body>
     <nav class="navbar navbar-dark bg-dark">
         <a href="/index.html" class="navbar-brand mb-0 h1">Square One</a>
+        <img src="baseline-search-24px.svg" alt="">
     </nav>
 
-    <div class="container">
-    <br>
-    <h1>Current Situation</h1>
+  <div class="landing">
+    <img src="landing_bg_v2.png" alt="map background" style="width:100%;">
+    <h2 class="centered">Square One</h2>
+    <p class="centered_sub">Looking for shelters, parking, charging stations, or hygiene stops?</p>
+  </div>
 
-    <div class="container">
-        <form>
-            <div class="form-group">
-              <label for="exampleFormControlInput1">Age</label>
-              <input type="text" class="form-control" id="exampleFormControlInput1">
-            </div>
+  <br>
+  <div class="container">
+      <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1" class="form_labeling">Age</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1">
+          </div>
 
-            <div class="form-group">
-              <label for="exampleFormControlSelect1">Gender</label>
-              <select class="form-control" id="exampleFormControlSelect1">
-                <option>Female</option>
-                <option>Male</option>
-              </select>
-            </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1" class="form_labeling">Gender</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Female</option>
+              <option>Male</option>
+            </select>
+          </div>
 
-            <div class="form-group">
-              <label for="exampleFormControlSelect2">Veteran Status</label>
-              <select class="form-control" id="exampleFormControlSelect2">
-                <option>Yes</option>
-                <option>No</option>
-              </select>
-            </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect2" class="form_labeling">Veteran Status</label>
+            <select class="form-control" id="exampleFormControlSelect2">
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </div>
 
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">Children/Dependents</label>
-              <select class="form-control" id="exampleFormControlSelect2">
-                <option>Yes</option>
-                <option>No</option>
-              </select>
-            </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1" class="form_labeling">Children/Dependents</label>
+            <select class="form-control" id="exampleFormControlSelect2">
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </div>
 
-            <a href="/map.html" class="btn btn-primary mb-2">I need shelter now</a>
-            <a href="/plan.html" class="btn btn-primary mb-2">I need to explore options</a>
-        </form>
-    </div>
+          <a href="/map.html" class="btn mb-2 btn-block text-white urgent-color">I need shelter now</a>
+          <a href="/plan.html" class="btn mb-2 btn-block text-white advice-color">I need to explore options</a>
+      </form>
+  </div>
 
-    </div>
 
   </body>
   </html>
