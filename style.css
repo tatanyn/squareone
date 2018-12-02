@@ -1,1 +1,40 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .eighty {max-width: 800px;}
+
+/* Container holding the image and the text */
+.landing {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered_sub {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form_labeling {
+  font-weight: bold;
+}
+
+.urgent-color {
+  /* background-color: rgb(255, 142, 30); */
+  background-image: linear-gradient(to right, rgba(255, 80, 0, 1.0), rgba(255, 80, 0, 0.7));
+}
+
+.advice-color {
+  background-image: linear-gradient(to right, rgba(66, 134, 244, 1.0), rgba(66, 134, 244, 0.7));
+}
